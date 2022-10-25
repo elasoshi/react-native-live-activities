@@ -6,7 +6,7 @@ import { createActivity, endAllActivity } from 'react-native-live-activities';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Button title="click" onPress={() => createActivity()} />
+      <Button title="start activity" onPress={() => createActivity()} />
       <Button title="end" onPress={() => endAllActivity()} />
     </View>
   );

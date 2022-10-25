@@ -1,19 +1,32 @@
 # react-native-live-activities
+
 IOS Live Activities for react native
+
 ## Installation
 
 ```sh
 npm install react-native-live-activities
 ```
 
+```sh
+npx pod-install
+```
+
 ## Usage
 
 ```js
-import { multiply } from "react-native-live-activities";
+import { createActivity, endAllActivity } from 'react-native-live-activities';
 
 // ...
 
-const result = await multiply(3, 7);
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <Button title="start activity" onPress={() => createActivity()} />
+      <Button title="end" onPress={() => endAllActivity()} />
+    </View>
+  );
+}
 ```
 
 ## Contributing
