@@ -1,18 +1,13 @@
 import * as React from 'react';
 
-import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'react-native-live-activities';
+import { StyleSheet, View, Button } from 'react-native';
+import { createActivity, endAllActivity } from 'react-native-live-activities';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
-  React.useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
-
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Button title="click" onPress={() => createActivity()} />
+      <Button title="end" onPress={() => endAllActivity()} />
     </View>
   );
 }

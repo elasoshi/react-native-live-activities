@@ -17,6 +17,10 @@ const LiveActivities = NativeModules.LiveActivities
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return LiveActivities.multiply(a, b);
+export function createActivity(): Promise<number> {
+  return LiveActivities.createActivity();
+}
+
+export function endAllActivity(): Promise<number> {
+  return LiveActivities.endAllActivity();
 }

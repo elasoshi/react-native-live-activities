@@ -7,3 +7,16 @@
 //
 
 import Foundation
+import ActivityKit
+
+// Live Activity
+struct LiveActivityAttributes: ActivityAttributes {
+  public typealias InitialState = ContentState
+
+  public struct ContentState: Codable, Hashable {
+      var title: String
+      var deliveryTime: Date
+  }
+  var numberOfGroceyItems: Int
+  var id = UUID()
+}

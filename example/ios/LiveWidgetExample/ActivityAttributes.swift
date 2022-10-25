@@ -6,3 +6,16 @@
 //
 
 import Foundation
+import ActivityKit
+
+// Live Activity
+struct LiveActivityAttributes: ActivityAttributes {
+  public typealias LiveDeliveryData = ContentState
+
+  public struct ContentState: Codable, Hashable {
+      var courierName: String
+      var deliveryTime: Date
+  }
+  var numberOfGroceyItems: Int
+  var id = UUID()
+}

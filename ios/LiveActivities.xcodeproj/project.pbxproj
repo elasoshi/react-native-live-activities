@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E555C0D2413F4C50049A1A2 /* LiveActivities.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* LiveActivities.m */; };
-		F4FF95D7245B92E800C19C63 /*  LiveActivities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF95D6245B92E800C19C63 /*  LiveActivities.swift */; };
+		9A5E38492906FC00005C6E1D /* LiveActivitiesAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5E38482906FC00005C6E1D /* LiveActivitiesAttributes.swift */; };
+		F4FF95D7245B92E800C19C63 /* LiveActivities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF95D6245B92E800C19C63 /* LiveActivities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libLiveActivities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLiveActivities.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A5E38482906FC00005C6E1D /* LiveActivitiesAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivitiesAttributes.swift; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* LiveActivities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveActivities.m; sourceTree = "<group>"; };
 		F4FF95D5245B92E700C19C63 /* LiveActivities-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LiveActivities-Bridging-Header.h"; sourceTree = "<group>"; };
 		F4FF95D6245B92E800C19C63 /* LiveActivities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivities.swift; sourceTree = "<group>"; };
@@ -52,6 +53,7 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				9A5E38482906FC00005C6E1D /* LiveActivitiesAttributes.swift */,
 				F4FF95D6245B92E800C19C63 /* LiveActivities.swift */,
 				B3E7B5891CC2AC0600A0062D /* LiveActivities.m */,
 				F4FF95D5245B92E700C19C63 /* LiveActivities-Bridging-Header.h */,
@@ -117,7 +119,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4FF95D7245B92E800C19C63 /* LiveActivities.swift in Sources */,
-				B3E7B58A1CC2AC0600A0062D /* LiveActivities.m in Sources */,
+				9A5E38492906FC00005C6E1D /* LiveActivitiesAttributes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
