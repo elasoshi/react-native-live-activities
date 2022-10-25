@@ -38,7 +38,10 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "dynamic island",
+    "live activities",
+    "ios 16.1"
   ],
   "repository": "https://github.com/elasoshi/react-native-live-activities",
   "author": "SHamsudeen Yusuf <shamoyusuf@gmail.com> (https://github.com/elasoshi)",
